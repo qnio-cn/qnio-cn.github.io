@@ -1,0 +1,1 @@
+var lib={toggle:function(){if($(".menu").is(":hidden")){$(".menu").fadeIn("slow");$(window).width()>767&&$(".content").animate({marginLeft:300},"fast",function(){$(this).find("h1").css("text-indent","-200px")})}else{$(".menu").fadeOut("fast");$(window).width()>767&&$(".content").animate({marginLeft:0},"fast",function(){$(this).find("h1").css("text-indent",0)})}}};
